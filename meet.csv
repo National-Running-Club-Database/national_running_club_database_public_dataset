@@ -1,0 +1,180 @@
+meet_id,sport_id,meet_name,start_date,end_date,meet_city,meet_state,elevation,nirca_only,regionals,nationals
+1,1,Irish Invitational,2023-10-06,2023-10-06,Niles,Michigan,,True,False,False
+2,1,Winrow-Valparaiso Open,2023-09-01,2023-09-01,Valparaiso,Indiana,,False,False,False
+3,1,University of San Francisco Invite,2023-09-01,2023-09-01,San Francisco,California,,False,False,False
+4,1,Cyclone Preview,2023-09-01,2023-09-01,Ames,Iowa,,False,False,False
+5,1,Boiler Up Invitational,2023-09-08,2023-09-08,West Lafayette,Indiana,,True,False,False
+6,1,Striders Invitational,2023-09-08,2023-09-08,Oxford,Ohio,,True,False,False
+7,1,Walters State,2023-09-09,2023-09-09,Morristown,Tennessee,,False,False,False
+8,1,Wisconsin Badger Classic,2023-09-09,2023-09-09,Madison,Wisconsin,,False,False,False
+9,1,LVC Dutchmen Invitational,2023-09-09,2023-09-09,Annville,Pennsylvania,,False,False,False
+10,1,MSU Spartan Invitational,2023-09-15,2023-09-15,East Lansing,Michigan,,False,False,False
+11,1,All-Ohio Intercollegiate Championship,2023-09-15,2023-09-15,Cedarville,Ohio,,False,False,False
+12,1,Virginia Tech Alumni Invitational,2023-09-15,2023-09-15,Blacksburg,Virginia,,False,False,False
+13,1,National Catholic Invitational,2023-09-15,2023-09-15,Notre Dame,Indiana,,False,False,False
+14,1,Carolina XC Classic,2023-09-16,2023-09-16,Chapel Hill,North Carolina,,True,False,False
+15,1,Cavalier Invitational,2023-09-16,2023-09-16,Earlysville,Virginia,,True,False,False
+16,1,Minuteman XC Invitational,2023-09-16,2023-09-16,Amherst,Massachusetts,,False,False,False
+353,1,SBU Bearcat Cross Country Invite 2024,2024-09-06,2024-09-06,Bolivar,Missouri,,False,False,False
+354,1,Mike Baumer XC Classic,2024-09-06,2024-09-06,Fairborn,Ohio,,False,False,False
+355,1,2024 Holloway Park Collegiate Opener,2024-09-06,2024-09-06,Lakeland,Florida,,False,False,False
+17,1,MC5 Cross Country Invitational,2023-09-16,2023-09-16,Anderson,Indiana,,True,False,False
+18,1,MC5 Cross Country Invitational,2023-09-16,2023-09-16,Anderson,Indiana,,True,False,False
+19,1,Nittany Lion Invitational,2023-09-16,2023-09-16,University Park,Pennsylvania,,True,False,False
+20,1,Cherokee Farms XC Invitational,2023-09-16,2023-09-16,Knoxville,Tennessee,,True,False,False
+21,1,Cherokee Farms XC Invitational,2023-09-16,2023-09-16,Knoxville,Tennessee,,True,False,False
+22,1,Roy Griak Invitational,2023-09-23,2023-09-23,Falcon Heights,Minnesota,,False,False,False
+23,1,Mike Johnson Classic,2023-09-23,2023-09-23,Monmouth,Oregon,,False,False,False
+24,1,22nd Annual LHU Invitational,2023-09-23,2023-09-23,Lock Haven,Pennsylvania,,False,False,False
+25,1,Berea College Mike & Mary Kay Johnson XC Invitational,2023-09-22,2023-09-22,Berea,Kentucky,,False,False,False
+26,1,Codfish Bowl,2023-09-23,2023-09-23,Boston,Massachusetts,,False,False,False
+27,1,Little Tens Invitational,2023-09-23,2023-09-23,New Boston,Michigan,,True,False,False
+28,1,Joe Piane Notre Dame Invitational,2023-09-29,2023-09-29,Notre Dame,Indiana,,False,False,False
+29,1,OWU Invitational,2023-09-29,2023-09-29,Powell,Ohio,,False,False,False
+30,1,Blugold Invitational,2023-09-29,2023-09-29,Colfax,Wisconsin,,False,False,False
+31,1,Alexander Asics Invitational,2023-09-30,2023-09-30,Fairburn,Georgia,,False,False,False
+32,1,Brown Bear Invitational,2023-09-30,2023-09-30,Attleboro,Massachusetts,,False,False,False
+356,1,2024 Walters State Senator's Invite,2024-09-07,2024-09-07,Morristown,Tennessee,,False,False,False
+334,1,University of Tennessee Cross Country Invitational,2024-08-30,,Knoxville,Tennessee,,False,False,False
+342,1,Loras College Bob Schultz Invite,2024-08-30,2024-08-30,Dubuque,Iowa,,False,False,False
+343,1,Wild Witt Exhibition Race,2024-08-30,2024-08-30,Springfield,Ohio,,False,False,False
+33,1,Paul Short Run,2023-09-30,2023-09-30,Bethlehem,Pennsylvania,,False,False,False
+335,1,Mizzou Opener,2024-08-30,,Columbia,Missouri,,False,False,False
+344,1,EMU Mennonite Heritage Cross Country Invitational,2024-08-30,2024-08-30,Harrisonburg,Virginia,,False,False,False
+345,1,Stormy Seas Opener,2024-08-30,2024-08-30,Georgetown,Texas,,False,False,False
+346,1,San Francisco Invitational,2024-08-30,2024-08-30,San Francisco,California,,False,False,False
+357,1,Miami Striders Invitational,2024-09-07,2024-09-07,Oxford,Ohio,,True,False,False
+347,1,Owl Invitational,2024-08-31,2024-08-31,Canton,Georgia,,True,False,False
+358,1,Boiler Up Invitational,2024-09-07,2024-09-07,West Lafayette,Indiana,,True,False,False
+550,1,Southern Showcase,2024-09-13,2024-09-13,Huntsville,Alabama,,False,False,False
+554,1,National Catholic Invitational,2024-09-20,2024-09-20,Notre Dame,IN,,False,False,False
+556,1,MC5 Cross Country Invitational,2024-09-21,2024-09-21,Anderson,Indiana,,True,False,False
+560,1,All-Ohio Intercollegiate Classic,2024-09-20,2024-09-20,Cedarville,Ohio,,False,False,False
+555,1,JSU Southern Showcase,2024-09-13,,Huntsville,Alabama,,False,False,False
+557,1,Cherokee Farms XC Invitational,2024-09-21,2024-09-21,Knoxville,Tennessee,,False,False,False
+558,1,Missouri Southern Stampede,2024-09-20,2024-09-20,Joplin,Missouri,,False,False,False
+559,1,UCR Invitational,2024-09-21,2024-09-21,Riverside,California,,False,False,False
+561,1,Greeno/Dirksen Cross Country Invitational,2024-09-21,2024-09-21,Lincoln,Nebraska,,False,False,False
+562,1,Codfish Bowl,2024-09-21,2024-09-21,Boston,Massachusetts,,False,False,False
+563,1,Midway University XC Invitational,2024-09-20,2024-09-20,Versailles,Kentucky,,False,False,False
+564,1,Larry Young XC Invitational,2024-09-20,2024-09-20,Columbia,Missouri,,False,False,False
+565,1,Cavalier Invitational,2024-09-21,2024-09-21,Charlottesville,Virginia,,True,False,False
+337,1,Winrow-Valparaiso Open,2024-08-30,2024-08-30,Valparaiso,Indiana,,False,False,False
+479,1,DC Invite,2024-09-14,2024-09-14,Derwood,Maryland,,True,False,False
+362,1,Badger Classic,2024-09-06,2024-09-06,Madison,Wisconsin,,False,False,False
+360,1,LVC Dutchmen XC Invite,2024-09-07,2024-09-07,Lebanon,Pennsylvania,,False,False,False
+359,1,Virginia Tech Invitational,2024-09-06,2024-09-06,Blacksburg,Virginia,,False,False,False
+543,1,Carolina XC Classic,2024-09-14,2024-09-14,Chapel Hill,North Carolina,,True,False,False
+566,1,Adidas XC Challenge,2024-09-20,2024-09-21,Cary,North Carolina,,False,False,False
+568,1,Delaware Invitational,2024-09-20,2024-09-20,Newark,Delaware,,False,False,False
+349,1,Virginia Tech Invitational,2023-09-01,2023-09-01,Blacksburg,Virginia,,False,False,False
+350,1,Hokie Open,2023-11-03,2023-11-03,Blacksburg,Virginia,,False,False,False
+391,1,UNF 5k Cross Country Challenge,2024-09-13,2024-09-13,Jacksonville,Florida,,False,False,False
+392,1,Auto-Owners Spartan Invitational,2024-09-13,2024-09-13,East Lansing,Michigan,,False,False,False
+583,1,Roy Griak Invitational,2024-09-20,2024-09-20,Minneapolis,Minnesota,,False,False,False
+584,1,Gans Creek Classic,2024-09-27,2024-09-27,Columbia,Missouri,,False,False,False
+585,1,Nuttycombe Invitational,2024-09-27,2024-09-27,Madison,Wisconsin,,False,False,False
+586,1,Hokie Invitational,2024-09-28,2024-09-28,Blacksburg,Virginia,,True,False,False
+588,1,Mike Johnson Invitational,2024-09-27,2024-09-27,Monmouth,Oregon,,False,False,False
+589,1,Lock Haven Invitational,2024-09-28,2024-09-28,Lock Haven,Pennsylvania,,False,False,False
+590,1,Lucian Rosa Inviational,2024-09-28,2024-09-28,Kenosha,Wisconsin,,False,False,False
+591,1,Border Battle,2024-09-28,2024-09-28,Verona,Wisconsin,,True,False,False
+592,1,Chile Pepper Invitational,2024-09-28,2024-09-28,Fayetteville,Arkansas,,False,False,False
+593,1,Brissman-Lundeen Invitational,2024-09-28,2024-09-28,Rock Island,Illinois,,False,False,False
+594,1,Brown Bear Invitational,2024-09-28,2024-09-28,Attleboro,Massachusetts,,False,False,False
+587,1,Little Tens Invitational,2024-09-28,2024-09-28,New Boston,Michigan,,True,False,False
+397,1,Nittany Lion Invitational,2024-09-14,2024-09-14,State College,Pennsylvania,,True,False,False
+351,1,Wilmington Beach Blast 5k,2024-09-06,2024-09-06,Wilmington,North Carolina,,False,False,False
+364,1,Joe LaRocco 5k,2024-09-07,2024-09-07,Salem,Virginia,,False,False,False
+393,1,Les Duke Invite,2024-09-14,2024-09-14,Grinnell,Iowa,,False,False,False
+394,1,Bethany Invitational,2024-09-14,2024-09-14,Bethany,West Virginia,,False,False,False
+395,1,Pioneer Gender Equity Invitational,2024-09-14,2024-09-14,Cuba City,Wisconsin,,False,False,False
+396,1,Forest Park XC Festival,2024-09-14,2024-09-14,St. Louis,Missouri,,False,False,False
+34,1,Augustana Brissman-Lundeen XC Invitational,2023-09-30,2023-09-30,Rock Island,Illinois,,False,False,False
+35,1,Dan Huston Invitational,2023-09-30,2023-09-30,Waverly,Iowa,,False,False,False
+36,1,Live at Lou,2023-09-30,2023-09-30,Louisville,Kentucky,,False,False,False
+37,1,WLC Warrior Invitational,2023-09-30,2023-09-30,West Allis,Wisconsin,,False,False,False
+38,1,Charles Bowles Willamette Invitational,2023-09-30,2023-09-30,Salem,Oregon,,False,False,False
+39,1,Scarlet Classic,2023-09-30,2023-09-30,Flemington,New Jersey,,True,False,False
+40,1,DC Invite,2023-09-30,2023-09-30,Washington,D.C.,,True,False,False
+41,1,Maryville College XC Invitational,2023-09-30,2023-09-30,Marville,Tennessee,,False,False,False
+42,1,Berry College Invitational,2023-09-30,2023-09-30,Rome,Georgia,,False,False,False
+43,1,Charlotte McAlpine Trail Race,2023-09-30,2023-09-30,Charlotte,North Carolina,,True,False,False
+44,1,Florida Running Club Invitational,2023-09-30,2023-09-30,Gainesville,Florida,,False,False,False
+549,1,UMass Minuteman XC Invitational,2024-09-14,2024-09-14,Amherst,Massachusetts,,True,False,False
+45,1,Bill Lennox Invite,2023-10-07,2023-10-07,New Castle,Pennsylvania,,False,False,False
+47,1,Gene Davis Invite,2023-10-07,2023-10-07,Appleton,Wisconsin,,False,False,False
+48,1,Asbury Invitational,2023-10-07,2023-10-07,Wilmore,Kentucky,,False,False,False
+49,1,BRC Open,2023-10-07,2023-10-07,Vestal,New York,,True,False,False
+50,1,Jack St. Clair College XC Invitational,2023-10-07,2023-10-07,Bryn Maw,Pennsylvania,,False,False,False
+51,1,Spartan Grand Classic,2023-10-07,2023-10-07,Waverly,Michigan,,True,False,False
+52,1,Delaware Invitational,2023-10-13,2023-10-13,Newark,Delaware,,False,False,False
+53,1,Nuttycombe Invitational,2023-10-13,2023-10-13,Madison,Wisconsin,,False,False,False
+54,1,Bradley Pink Classic,2023-10-13,2023-10-13,Peoria,Illinois,,False,False,False
+55,1,Canisius Alumni Classic,2023-10-14,2023-10-14,Buffalo,New York,,False,False,False
+56,1,Santa Clara Bronco Invitational,2023-10-14,2023-10-14,Sunnyvale,California,,False,False,False
+57,1,Augustana Interregional,2023-10-14,2023-10-14,Rock Island,Illinois,,False,False,False
+58,1,Hokie Invitational,2023-10-14,2023-10-14,Blacksburg,Virginia,,True,False,False
+59,1,UConn Autumn Invitational,2023-10-14,2023-10-14,Mansfield,Connecticut,,True,False,False
+60,1,Marson Birthday Invitational,2023-10-15,2023-10-15,Holly Springs,North Carolina,,True,False,False
+61,1,NIRCA Cross Country Mid-Atlantic Regional,2023-10-21,2023-10-21,Bethlehem,Pennsylvania,,True,True,False
+62,1,NIRCA Cross Country Northeast Regional,2023-10-21,2023-10-21,Attleboro,Massachusetts,,True,True,False
+63,1,NIRCA Cross Country Pacific Regional,2023-10-21,2023-10-21,Obispo,California,,True,True,False
+64,1,NIRCA Cross Country Great Lakes Regional,2023-10-28,2023-10-28,Carmel,Indiana,,True,True,False
+65,1,NIRCA Cross Country Great Plains Regional,2023-10-28,2023-10-28,Urbana,Illinois,,True,True,False
+67,1,Missouri Southern Stampede,2023-09-16,2023-09-16,Joplin,Missouri,,False,False,False
+68,1,Greeno/Dirksen Cross Country Invitational,2023-09-16,2023-09-16,Lincoln,Nebraska,,False,False,False
+69,1,Gans Creek Invitational,2023-09-29,2023-09-29,Columbia,Missouri,,False,False,False
+70,1,SCC Preview,2023-10-13,2023-10-13,Lakeland,Florida,,False,False,False
+71,1,NIRCA Cross Country National Championships,2023-11-11,2023-11-11,Shelbyville,Indiana,,True,False,True
+46,1,Dashing Dukes Invitational,2023-10-07,2023-10-07,Elkton,Virginia,,True,False,False
+328,1,Friday Night Lights Elon XC Opener,2023-09-01,,Elon,North Carolina,,False,False,False
+340,1,Wolfpack Invitational,2024-08-30,2024-08-30,Youngwood,Pennsylvania,,False,False,False
+352,1,Lancer Home Open,2024-09-07,2024-09-07,Farmville,Virginia,,False,False,False
+553,1,Hokie Invitational,2024-09-20,2024-09-20,Blacksburg,Virginia,2040.0,False,False,False
+569,1,RSCC Raider XC Invite,2024-09-13,2024-09-13,Harriman,Tennessee,,False,False,False
+66,1,NIRCA Cross Country Southeast Regional,2023-10-28,2023-10-28,Wingate,North Carolina,,True,True,False
+606,1,Georgia Tech Invitational,2024-10-04,2024-10-04,Fairburn,Georgia,,False,False,False
+607,1,Joe Piane Notre Dame Invitational,2024-10-04,2024-10-04,South Bend,Indiana,,False,False,False
+631,1,Warrior Invitational,2024-10-05,2024-10-05,Milwaukee,Wisconsin,,False,False,False
+620,1,NCAA DIII Pre-Nats,2024-10-04,2024-10-04,Terre Haute,Indiana,,False,False,False
+621,1,OWU Invitational,2024-10-04,2024-10-04,Delaware,Ohio,,False,False,False
+623,1,Dashing Dukes Invitational,2024-10-05,2024-10-05,Elkton,Virginia,,True,False,False
+625,1,Live in Lou Classic,2024-10-05,2024-10-05,Louisville,Kentucky,,False,False,False
+626,1,Dan Huston Invite,2024-10-05,2024-10-05,Waverly,Iowa,,False,False,False
+628,1,The Master's University XC Invitational,2024-10-05,2024-10-05,Santa Clarita,California,,False,False,False
+629,1,Williamette Invitational,2024-10-05,2024-10-05,Salem,Oregon,,False,False,False
+632,1,Daniel Mullen Memorial Invitational,2024-10-05,2024-10-05,New Concord,Ohio,,False,False,False
+633,1,Paul Short Run Invitational,2024-10-05,2024-10-05,Lehigh,Pennsylvania,,False,False,False
+622,1,VCU Invitational,2024-10-05,2024-10-05,Mechanicsville,Virginia,,True,False,False
+624,1,Irish Invitational,2024-10-05,2024-10-05,Niles,Michigan,,True,False,False
+648,1,Owls Track Club Classic,2024-10-05,2024-10-05,Ambler,Pennsylania,,True,False,False
+649,1,Caldwell Cougar Chase Invite,2024-09-28,2024-09-28,Caldwell,New Jersey,,False,False,False
+650,1,Spartan Grand Classic,2024-10-05,2024-10-05,Waverly,Michigan,,True,False,False
+652,1,Gene Davis Invitational,2024-10-12,2024-10-12,Appleton,Wisconsin,,False,False,False
+653,1,University of the Ozarks Invitational,2024-10-12,2024-10-12,Clarksville,Arkansas,,False,False,False
+654,1,Ashbury Invitational,2024-10-12,2024-10-12,Wilmore,Kentucky,,False,False,False
+655,1,DeSales University Cross Country Invitational,2024-10-12,2024-10-12,Center Valley,Pennsylvania,,False,False,False
+656,1,Brian T. Simpson Invite,2024-10-12,2024-10-12,Columbia,Missouri,,False,False,False
+660,1,Notre Dame Interhall Cross Country,2024-10-08,2024-10-08,Notre Dame,Indiana,,False,False,False
+675,1,NIRCA Great Plains Regional Championships,2024-10-19,2024-10-19,Iowa City,Iowa,,True,True,False
+676,1,NIRCA Mid-Atlantic Regional Championship,2024-10-19,2024-10-19,Lehigh,Pennsylvania,,True,True,False
+677,1,Santa Clara University Bronco Invitational,2024-10-19,2024-10-19,Santa Clara,California,,False,False,False
+678,1,UTC Home CC Meet,2024-10-18,2024-10-18,Chattanooga,Tennessee,,False,False,False
+679,1,Falcon Collegiate Invitational,2024-10-18,,Bowling Green,Ohio,,False,False,False
+680,1,Nooga at Night Invite,2024-10-12,2024-10-12,East Ridge,Tennessee,,False,False,False
+682,1,UConn Autumn Invitational,2024-10-12,2024-10-12,Mansfield,Connecticut,,True,False,False
+683,1,Embry Riddle Cross Country Classic,2024-09-21,2024-09-21,Daytona Beach,Florida,,False,False,False
+684,1,George Oja Invitational,2024-10-19,2024-10-19,Oak Knoll,Oregon,,False,False,False
+769,1,NIRCA Southeast Regional Championships,2024-10-26,2024-10-26,Knoxville,Tennessee,,True,True,False
+774,1,NIRCA Pacific Regional Championships,2024-10-26,2024-10-26,Sunnyvale,California,,True,True,False
+776,1,NIRCA Northeast Regional Championship,2024-10-26,2024-10-26,Westfield,Massachusetts,,True,True,False
+770,1,NIRCA Great Lakes Regional Championships,2024-10-26,2024-10-26,Carmel,Indiana,,True,True,False
+816,1,Southwestern Showdown,2024-09-14,2024-09-14,Georgetown,Texas,,False,False,False
+820,1,Bushnell Invitational,2024-10-26,2024-10-26,Springfield,Oregon,,False,False,False
+821,1,L&C Invitational,2024-10-19,2024-10-19,Estacada,Oregon,,False,False,False
+822,1,NIRCA Cross Country National Championships,2024-11-09,2024-11-09,Hershey,Pennsylvania,,True,False,True
+823,1,Wor-Wic Community College Hero Run 5k,2024-10-05,,Salisbury,MD,,False,False,False
+826,1,Oregon vs Oregon State,2024-10-12,2024-10-12,Eugene,Oregon,,True,False,False
+831,1,NXR Southeast,2024-11-23,2024-11-23,Cary,North Carolina,,False,False,False
+833,1,NXR Southeast,2023-11-19,2023-11-19,Cary,North Carolina,,False,False,False
