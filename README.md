@@ -14,17 +14,17 @@ This dataset contains cross country running results from the 2023-2024 season ac
 - **Scope**: Collegiate cross country meets and events
 
 **Dataset Size:**
-- **Results**: 15,397 individual race results
-- **Athletes**: 5,585 unique athletes
-- **Meets**: 179 cross country meets
-- **Course Details**: 192 course/weather records
-- **Teams**: 121 collegiate teams
-- **Athlete-Team Associations**: 5,589 team affiliations (4 athletes on multiple teams)
+- **Results**: 23,725 individual race results
+- **Athletes**: 7,594 unique athletes
+- **Meets**: 284 cross country meets
+- **Course Details**: 351 course/weather records
+- **Teams**: 132 collegiate teams
+- **Athlete-Team Associations**: 7,598 team affiliations (4 athletes on multiple teams)
 
 ## Overview
 
 The data in this directory has been filtered from the original dataset to:
-- Include only cross country running events (2023-2024 season)
+- Include only cross country running events (2023-2025 season)
 - Remove personal identifying information (names, user IDs)
 - Focus on individual running events (no track and field or relay events)
 - Remove unnecessary fields (links, photos, track-specific data)
@@ -67,7 +67,7 @@ The data in this directory has been filtered from the original dataset to:
 - **Excluded**: Hurdles, jumps, throws, pole vault, relays, and other track events
 
 #### Time Period
-- **Season**: August 1, 2023 to December 31, 2024
+- **Season**: August 1, 2023 to November 8, 2025
 - **Sport**: Cross country only (`sport_id = 1`)
 
 ## Data Relationships
