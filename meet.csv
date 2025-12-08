@@ -228,7 +228,6 @@ meet_id,sport_id,meet_name,start_date,end_date,meet_city,meet_state,elevation,ni
 1295,1,Lockhaven Invite,2025-09-27,2025-09-27,Lock Haven,Pennsylvania,,False,False,False
 1296,1,Border Battle,2025-09-27,2025-09-27,Verona,Wisconsin,,True,False,False
 1297,1,Brown Bear Invitational,2025-09-27,2025-09-27,Attleboro,Massachusetts,,False,False,False
-1298,1,JMU XC Invitational,2025-09-26,2025-09-26,New Market,Virginia,,False,False,False
 1299,1,Gans Creek Classic,2025-09-26,2025-09-26,Columbia,Missouri,,False,False,False
 1300,1,Fighting Bee Invitational,2025-09-13,2025-09-13,Bettendorf,Iowa,,False,False,False
 1302,1,Joe Piane Notre Dame Invitational,2025-10-03,2025-10-03,Notre Dame,Indiana,,False,False,False
@@ -257,6 +256,7 @@ meet_id,sport_id,meet_name,start_date,end_date,meet_city,meet_state,elevation,ni
 1301,1,Georgia Tech XC Invitational,2025-10-03,2025-10-03,Fairburn,Georgia,,False,False,False
 1279,1,Nittany Lion Invitational,2025-09-20,2025-09-20,State College,Pennsylvania,,True,False,False
 1318,1,Pomona-Pitzer XC Invite,2025-10-04,2025-10-04,Claremont,California,,False,False,False
+1298,1,JMU XC Invitational,2025-09-27,2025-09-27,New Market,Virginia,,False,False,False
 1328,1,Dashing Dukes Invitational,2025-10-11,2025-10-11,Elkton,Virginia,,True,False,False
 1330,1,Jack St. Clair College XC Invite,2025-10-11,2025-10-11,Bryn Mawr,Pennsylvania,,False,False,False
 1331,1,Gene Davis Invitational,2025-10-11,2025-10-11,Appleton,Wisconsin,,False,False,False

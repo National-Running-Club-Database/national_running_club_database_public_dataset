@@ -17,7 +17,7 @@ This dataset contains cross country running results from the 2023-2024 season ac
 - **Results**: 23,725 individual race results
 - **Athletes**: 7,594 unique athletes
 - **Meets**: 284 cross country meets
-- **Course Details**: 351 course/weather records
+- **Course Details**: 500 course/weather records
 - **Teams**: 132 collegiate teams
 - **Athlete-Team Associations**: 7,598 team affiliations (4 athletes on multiple teams)
 
