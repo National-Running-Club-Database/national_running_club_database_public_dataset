@@ -1,13 +1,13 @@
 # NRCD Data
 
-This directory contains filtered cross country running data for the 2023-2024 season, processed to remove personal identifying information and focus on individual running events.
+This directory contains filtered cross country running data for the 2023-2025 season, processed to remove personal identifying information and focus on individual running events.
 
 ## Dataset Summary
 
-This dataset contains cross country running results from the 2023-2024 season across multiple collegiate teams and meets. The data has been anonymized and filtered to focus on individual running performance while maintaining the integrity of race results and team affiliations.
+This dataset contains cross country running results from the 2023-2025 season across multiple collegiate teams and meets. The data has been anonymized and filtered to focus on individual running performance while maintaining the integrity of race results and team affiliations.
 
 **Key Statistics:**
-- **Time Period**: August 2023 - December 2024
+- **Time Period**: August 2023 - November 2025
 - **Sport Focus**: Cross country running only
 - **Data Type**: Individual race results, team affiliations, course details, and weather conditions
 - **Privacy**: All personal identifying information has been removed
@@ -102,20 +102,3 @@ The filtered dataset is significantly smaller than the original:
 - Eliminated PII and unnecessary fields
 - Optimized for analysis and research purposes
 
-## Contact
-
-**Main Contact:** 
-[![ORCID](https://img.shields.io/badge/Jonathan_A._Karr_Jr.-0009--0000--1600--6122-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0000-1600-6122) (jkarr@nd.edu)
-
-**Other Authors:**
-[![ORCID](https://img.shields.io/badge/Ben_Darden-0009--0008--3808--1375-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0008-3808-1375)
-[![ORCID](https://img.shields.io/badge/Nicholas_Pell-0009--0001--1289--5054-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0001-1289-5054)
-
-**General Inquiries:** nationalrunningclubdatabase@gmail.com
-
-For questions about this dataset or to report issues, please contact the authors through the provided email addresses. This dataset is provided for research and analysis purposes only.
-
-**Usage Terms:**
-- This dataset is anonymized and suitable for public research
-- Please cite appropriately if used in publications
-- Report any data quality issues to the maintainers 
