@@ -1,8 +1,55 @@
 running_event_id,event_name
+1,55m
+2,60m
+3,100m
+4,200m
+5,300m
+6,400m
+7,500m
+8,600m
+9,800m
+10,1000m
+11,1500m
+12,1600m
+13,Mile
+14,3000m
+15,3200m
+16,2 Mile
 17,5000m
+18,10000m
+19,2000m Steeplechase
+20,3000m Steeplechase
+21,4x100m
+22,4x200m
+23,4x220yd
+24,4x400m
+25,4x440yd
+26,4x800m
+29,SMR
+30,DMR
+31,Swedish Relay
+32,55m Hurdles
+33,60m Hurdles
+34,100m Hurdles
+35,110m Hurdles
+36,300m Hurdles
+37,400m Hurdles
+38,Long Jump
+39,Triple Jump
+40,High Jump
+41,Shot Put
+42,Discus
+43,Hammer Throw
+44,Weight Throw
+45,Javelin Throw
+46,Pole Vault
 47,6000m
 48,8000m
 49,4 Mile
 50,5 Mile
+51,Half Marathon
+52,Marathon
+57,10 Mile
 58,4000m
 59,7000m
+61,14 Mile
