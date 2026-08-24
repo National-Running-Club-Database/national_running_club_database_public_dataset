@@ -1,0 +1,261 @@
+series_id,display_name,sport_id,track_scoring_mode,track_scoring_places,allow_multiple_scoring_relays
+1,Nittany Lion Invitational,1,standard,8,True
+2,Irish Invitational,1,standard,8,True
+3,Cavalier Invitational,1,standard,8,True
+4,Carolina XC Classic,1,standard,8,True
+6,Oxy Invitational,3,standard,8,True
+8,Adidas XC Challenge,1,standard,8,True
+9,Spartan Grand Classic,1,standard,8,True
+11,Princeton Invitational,1,standard,8,True
+12,Boiler Up Invitational,1,standard,8,True
+13,Happy Valley Invitational,2,standard,8,True
+14,Portland Twilight,3,standard,8,True
+15,Charlotte McAlpine Trail Race,1,standard,8,True
+16,Hokie Invitational,1,standard,8,True
+17,John Knight Twilight,3,standard,8,True
+19,Panther Tune-Up,2,standard,8,True
+20,BRC Open,1,standard,8,True
+21,Brown Bear Invitational,1,standard,8,True
+22,Duke Invitational,3,standard,8,True
+25,LCC Open,3,standard,8,True
+27,Oregon Twilight,3,standard,8,True
+29,Raleigh Relays,3,standard,8,True
+30,UConn Invitational,1,standard,8,True
+31,UW-Whitewater Drake Alternative,3,standard,8,True
+35,Dashing Dukes Invitational,1,standard,8,True
+37,Hagan Stone XC Classic,1,standard,8,True
+38,KD Shamrock 'N' Run 5K,4,standard,8,True
+39,MC5,1,standard,8,True
+40,MC5 Cross Country Invitational,1,standard,8,True
+43,The Tar Heel 10 Miler,4,standard,8,True
+44,The Trojan Relays,3,standard,8,True
+45,UConn Autumn Invitational,1,standard,8,True
+46,Vince Brown Invitational,2,standard,8,True
+47,Alex Wilson Invitational,2,standard,8,True
+48,Art and Linda Maillet UNC Open,2,standard,8,True
+49,Badger Challenge,3,standard,8,True
+51,Blue Gold Invitational,2,standard,8,True
+53,Codfish Bowl,1,standard,8,True
+56,Delaware Invitational,1,standard,8,True
+57,Dennis Craddock Carolina Relays,3,standard,8,True
+58,DePauw Indoor Invitational,2,standard,8,True
+59,Dr. Jack M Toms Alumni Invitational,3,standard,8,True
+60,Gina Relays,3,standard,8,True
+61,Grinnell Invitational,2,standard,8,True
+62,ISU Redbird Home Meet,1,standard,8,True
+63,JMU Invitational,1,standard,8,True
+64,Joe Piane Notre Dame Invitational,1,standard,8,True
+65,Lake Michigan Open,2,standard,8,True
+66,Liberty Open,2,standard,8,True
+67,Luther Invitational,2,standard,8,True
+68,Madison Marathon,4,standard,8,True
+69,Margaret Bradley Invitational,2,standard,8,True
+70,Mary Grinaker Invitational,2,standard,8,True
+71,Michigan Fall Classic,1,standard,8,True
+72,National Catholic Invitational,1,standard,8,True
+73,NXR Southeast,1,standard,8,True
+74,Oregon Preview,3,standard,8,True
+75,OWU Invitational,1,standard,8,True
+76,Roy Griak Invitational,1,standard,8,True
+78,SAU Tune Up,2,standard,8,True
+79,Silverston Invitational,2,standard,8,True
+80,SVSU Tune Up,2,standard,8,True
+81,UW-Platteville Invitational,3,standard,8,True
+82,Virginia Tech Challenge,2,standard,8,True
+83,Virginia Tech Invitational,1,standard,8,True
+84,Winrow-Valparaiso Open,1,standard,8,True
+85,YSU Mid Major Invitational,2,standard,8,True
+86,Aggie Invitational,3,standard,8,True
+87,Aggie Open,3,standard,8,True
+88,AkRUN Invitational,1,standard,8,True
+89,Badger Classic,1,standard,8,True
+90,Berry Field Day Invitational,3,standard,8,True
+91,Bethel University XC Invitational,1,standard,8,True
+92,Big Apple Invitational,2,standard,8,True
+93,Binghamton Open,1,standard,8,True
+94,Blugold Invitational,1,standard,8,True
+95,Border Battle,1,standard,8,True
+96,Brissman-Lundeen Invitational,1,standard,8,True
+97,Bulldog Invitational,3,standard,8,True
+99,Bushnell Invitational,1,standard,8,True
+100,Camel City Invitational,2,standard,8,True
+101,Canisius Alumni Classic,1,standard,8,True
+102,Capital Relays,3,standard,8,True
+106,Charlotte 49er Classic,3,standard,8,True
+107,Cherokee Farms XC Invitational,1,standard,8,True
+108,Chicago Marathon,4,standard,8,True
+109,Chippewa Invite,2,standard,8,True
+110,CMU Open,3,standard,8,True
+111,CNU Qualifier,2,standard,8,True
+112,Collegeville Classic,2,standard,8,True
+113,CSB/SJU Invitational,2,standard,8,True
+114,Dan Huston Invitational,1,standard,8,True
+115,Daniel Mullen Memorial Invitational,1,standard,8,True
+116,Davidson Relays,3,standard,8,True
+117,Eagle Open,3,standard,8,True
+118,Embry-Riddle Cross Country Classic,1,standard,8,True
+41,NIRCA Southeast Regional,1,standard,8,True
+23,NIRCA Great Lakes Regional,1,standard,8,True
+18,NIRCA Northeast Regional,1,standard,8,True
+52,Charlotte Outdoor Club Invitational,3,standard,8,True
+24,NIRCA Great Plains Regional,1,standard,8,True
+26,NIRCA Mid-Atlantic Regional,1,standard,8,True
+28,NIRCA Pacific Regional,1,standard,8,True
+54,DC Invite,1,standard,8,True
+33,Big Dawg Invite,2,standard,8,True
+34,Cavalier Open,3,standard,8,True
+5,Willamette Track & Field Invitational,3,standard,8,True
+104,Cedarville Collegiate Invitational,2,standard,8,True
+77,Rutgers XC Invitational,1,standard,8,True
+105,Centre Indoor Showcase,2,standard,8,True
+7,Illinois Club Relays,2,club_relay,8,True
+10,Little Tens Invitaitonal,1,standard,8,True
+119,Erik Anderson Memorial Icebreaker,3,standard,8,True
+123,George Oja Invitational,1,standard,8,True
+125,Greeno/Dirksen Cross Country Invitational,1,standard,8,True
+129,GVSU Extra Weekend Meet,3,standard,8,True
+131,GVSU Mike Lints Alumni Open,2,standard,8,True
+133,Harvard College Running Club Fall Invitational,1,standard,8,True
+135,Hokie Invitational,3,standard,8,True
+137,Illinois State University Invitational,1,standard,8,True
+139,Indiana Invitational,2,standard,8,True
+141,IWU Titan First Chance,2,standard,8,True
+145,Jim Drews/Tori Neubauer Invitational,1,standard,8,True
+147,Joe Hilton Invitational,2,standard,8,True
+149,Kim Duyst Invitational,3,standard,8,True
+151,Lane Preview,3,standard,8,True
+155,Lloyd Sigler Spring Meet,3,standard,8,True
+157,Maryville College XC Invitational,1,standard,8,True
+159,Meyo Invitational,2,standard,8,True
+161,Michigan Invitational,2,standard,8,True
+163,Mike Fanelli Track Classic,3,standard,8,True
+165,Mondo College Invitational,2,standard,8,True
+169,Myrtle Beach Collegiate Challenge,3,standard,8,True
+177,Occidental DC & SBC,3,standard,8,True
+179,Oregon Relays,3,standard,8,True
+181,OSU High Performance Meet,3,standard,8,True
+183,Otterbein Invite,2,standard,8,True
+185,Phoenix Invitational,3,standard,8,True
+189,River Hawk Invite,2,standard,8,True
+191,Running of the Bulls,1,standard,8,True
+195,Southwestern Showdown,1,standard,8,True
+199,Stormy Seas Opener,1,standard,8,True
+201,SVSU Jet's Pizza Invitational,2,standard,8,True
+203,Terrapin Invitational,3,standard,8,True
+205,Titan First Chance,2,standard,8,True
+209,UNC Invitational,1,standard,8,True
+211,University of Oregon Running Club Invitational,1,standard,8,True
+215,Victor Ice Breaker Duals,3,standard,8,True
+217,WashU Distance Carnival,3,standard,8,True
+167,Mountaineer Open,1,standard,8,True
+143,JDL Early Bird,2,standard,8,True
+213,UW Platteville Invitational,2,standard,8,True
+153,Lee University Inviational,3,standard,8,True
+207,Tobacco Road Marathon,4,standard,8,True
+197,SPIRE College Indoor Games,2,standard,8,True
+121,Gene Anderson Invitational,2,standard,8,True
+127,GVSU Bill Clinger Classic,2,standard,8,True
+120,Gans Creek Classic,1,standard,8,True
+122,Gene Davis Invitational,1,standard,8,True
+124,Greater Boston Track Club Invitational,2,standard,8,True
+128,GVSU Bob Eubanks Open,2,standard,8,True
+130,GVSU Holiday Open,2,standard,8,True
+132,GVSU Tune-Up,2,standard,8,True
+136,Houghton December Classic,2,standard,8,True
+138,Indiana Early Bird,2,standard,8,True
+146,Jim Green Invite,2,standard,8,True
+148,Joe LaRocco 5k,1,standard,8,True
+150,Lafayette Open,3,standard,8,True
+152,LC Larry Byerly Invite,3,standard,8,True
+156,Mark Conover Classic,3,standard,8,True
+158,MC5 Midwest Regional,1,standard,8,True
+160,Miami Striders Invitational,1,standard,8,True
+162,Mike Baumer XC Classic,1,standard,8,True
+164,Missouri Southern Stampede,1,standard,8,True
+166,Mountaineer Classic,1,standard,8,True
+168,Muskie Meet #3,2,standard,8,True
+170,Newport News One City Marathon,4,standard,8,True
+176,Nuttycombe Invitational,1,standard,8,True
+182,OSU HP Meet,3,standard,8,True
+184,Paul Short Run,1,standard,8,True
+190,RSCC Raider XC Invite,1,standard,8,True
+192,San Francisco State Distance Carnival,3,standard,8,True
+194,Southern Showcase,1,standard,8,True
+196,Spartan Invitational,2,standard,8,True
+198,Stanislaus Kim Duyst Invitational,3,standard,8,True
+200,Striders Invitational,1,standard,8,True
+202,Tar Heel Invitational,1,standard,8,True
+206,Titan Invitational,3,standard,8,True
+208,UMass Minuteman XC Invitational,1,standard,8,True
+212,URI Coaches Invitational,2,standard,8,True
+214,VertKlasse Meeting,3,standard,8,True
+216,Washburn Rust Buster,2,standard,8,True
+218,West Point Tune-Up,2,standard,8,True
+220,Yellow Jacket Invitational,3,standard,8,True
+221,Florida Running Club Track Invitational,3,standard,8,True
+36,Dick Taylor Challenge,2,standard,8,True
+223,Georgia Tech XC Invitational,1,standard,8,True
+225,Chip Trails,1,standard,8,True
+261,Run with the Pack,1,standard,8,True
+227,32nd Annual Greensboro Cross Country Invitational,1,standard,8,True
+228,University of Ozarks Invitational,1,standard,8,True
+229,Wilmington Beach Blast,1,standard,8,True
+262,Gopher Invitational,2,standard,8,True
+231,All-Ohio Intercollegiate Challenge,1,standard,8,True
+232,Dashing Dukes Invitational,3,standard,8,True
+144,Jenn Boyman Memorial Invite,3,standard,8,True
+142,Jack Skoog Invitational,2,standard,8,True
+236,LVC Dutchman Invitational,1,standard,8,True
+237,L&C Portland Distance Carnival,3,standard,8,True
+238,Purple & Gold Invite,3,standard,8,True
+263,Jack St. Clair College XC Invite,1,standard,8,True
+239,Scarlet Classic,1,standard,8,True
+240,App State Outdoor Open,3,standard,8,True
+241,Don Kleinow Invitational,3,standard,8,True
+242,EMU Mennonite Heritage Invitational,1,standard,8,True
+243,Wittenberg Collegiate Meet,2,standard,8,True
+244,Amy Adams Memorial Invitational,3,standard,8,True
+245,Bast-Cregger Invitational,2,standard,8,True
+246,USATF-NE Indoor Championship,2,standard,8,True
+247,River Hawk Early Season Invite,2,standard,8,True
+248,Brian T. Simpson Invitational,1,standard,8,True
+249,Chile Pepper XC Festival,1,standard,8,True
+250,Willamette Invitational,1,standard,8,True
+251,Gordon Kelly,2,standard,8,True
+252,Ashbury Invitational,1,standard,8,True
+253,Oregon State High Performance,3,standard,8,True
+254,UW-La Crosse Uncaged Eagle Open,3,standard,8,True
+255,Billy Brockmueller Invitational 2025,2,standard,8,True
+256,BU John Thomas Terrier Classic,2,standard,8,True
+257,Harvard Running Club Invite,2,standard,8,True
+154,Linfield Erik Anderson Memorial Icebreaker Invitational,3,standard,8,True
+258,UMass Boston Beacon Season Opener,2,standard,8,True
+204,Tiger Throwdown,1,standard,8,True
+134,Harvard XC Invite,1,standard,8,True
+259,Scarlet Knights Open,2,standard,8,True
+186,Pomona-Pitzer All Comers,3,standard,8,True
+260,Royals Challenge,1,standard,8,True
+178,Occidental Distance Carnival Spring Break Classic,3,standard,8,True
+264,HighPoint VertKlasse Outdoor Meeting,3,standard,8,True
+265,LG All-Comers Meet #1,3,standard,8,True
+267,Walters State Invitational,1,standard,8,True
+268,Chen Invitational,3,standard,8,True
+269,Marty Pushkin WVU Invitational,3,standard,8,True
+270,Live in Lou Classic,1,standard,8,True
+271,Lockhaven Invite,1,standard,8,True
+272,Mike Johnson Invitational,1,standard,8,True
+273,Liberty Kickoff,2,standard,8,True
+274,Marc Deneault Invitational,2,standard,8,True
+276,Knoxville Invitational,1,standard,8,True
+277,ONU Holiday Open,2,standard,8,True
+278,Kent Taylor Invite,2,standard,8,True
+279,JDL Flat is Fast Invite,2,standard,8,True
+280,Yellow Jacket Collegiate Outdoor Open,3,standard,8,True
+281,Jim Thorpe Invitational,3,standard,8,True
+282,PNC Lenny Lyles Open,2,standard,8,True
+283,Santa Clara University Bronco Invitational,1,standard,8,True
+126,GVSU Big Meet (Saturday),2,standard,8,True
+284,Hillsdale Wide Track Classic,2,standard,8,True
+285,Bryan Clay Invitational,3,standard,8,True
+140,IWU Polar Bear Invitational,3,standard,8,True
+286,Hillsdale College Tune Up,2,standard,8,True

@@ -2,33 +2,34 @@
 
 This dataset contains the National Running Club Database with personal identifiable information (PII) removed.
 
-**Version:** v2.0.0 — [Zenodo](https://zenodo.org/records/17917357) (prior releases: v1.0.0, v1.1.0 cross country only)  
-**Data coverage:** 2004 – May 2026  
+**Version:** v2.1.0 — [Zenodo](https://zenodo.org/records/17917357) (prior releases: v1.0.0, v1.1.0 cross country only; v2.0.0 all sports through May 2026)  
+**Data coverage:** 2003 – July 2026  
 **Related paper:** Karr et al., *NRCD: An Open Database of Collegiate Running with Unified Performance Standardization* (under review; arXiv preprint forthcoming)  
 **Update cadence:** Public exports are updated yearly
 
 For structured metadata, provenance, and intended-use documentation, see [`DATASHEET.md`](DATASHEET.md) (following the [Datasheets for Datasets](https://doi.org/10.1145/3458723) framework).
 
-Last updated: June 5, 2026
+Last updated: August 24, 2026
 
 ## Dataset Summary
 
-This dataset contains collegiate running results across multiple sports and seasons from **2004 through May 2026**. It includes both **comprehensive** data (August 2023 onward, full metadata) and **historical** data (2004–July 2023, partial metadata). See [`DATASHEET.md`](DATASHEET.md) for era breakdown by sport.
+This dataset contains collegiate running results across multiple sports and seasons from **2003 through July 2026**. It includes both **comprehensive** data (August 2023 onward, full metadata) and **historical** data (through July 2023, partial metadata). See [`DATASHEET.md`](DATASHEET.md) for era breakdown by sport.
 
 **Key Statistics:**
-- **Time Period**: Historical results from 2004–July 2023; comprehensive results with full metadata from August 2023 to May 2026
+- **Time Period**: Historical results through July 2023; comprehensive results with full metadata from August 2023 to July 2026
 - **Sport Focus**: Cross Country, Indoor Track, Outdoor Track, and Road Race
-- **Data Type**: Individual race results, team affiliations, course details, and weather conditions
+- **Data Type**: Individual race results, team affiliations, meet series, course details, and weather conditions
 - **Privacy**: All personal identifying information has been removed under IRB approval from the University of Notre Dame
-- **Scope**: Approved meets and results across all sports and seasons
+- **Scope**: Approved meets and results across all sports and seasons (`approved` is applied as a filter and is not retained as a column)
 
 **Dataset Size:**
-- **Results**: 128,963 individual race results
-- **Athletes**: 29,609 unique athletes
-- **Meets**: 1,336 meets
-- **Course Details**: 939 course/weather records
-- **Teams**: 187 collegiate teams
-- **Athlete-Team Associations**: 29,618 team affiliations (9 athletes on multiple teams)
+- **Results**: 143,868 individual race results
+- **Athletes**: 31,786 unique athletes
+- **Meets**: 1,423 meets
+- **Meet series**: 260 series (878 meet–series memberships)
+- **Course Details**: 1,183 course/weather records
+- **Teams**: 190 collegiate teams
+- **Athlete-Team Associations**: 31,796 team affiliations (10 athletes on multiple teams)
 
 ## Overview
 
@@ -36,7 +37,7 @@ The data in this directory has been filtered from the original dataset to:
 - Include all sports and seasons (no sport or date filtering)
 - Keep only approved meets and results
 - Remove personal identifying information (names, user IDs)
-- Remove unnecessary fields (links, photos, track-specific data)
+- Remove unnecessary fields (links, photos, track-specific data, `is_hidden`, `approved`)
 
 ## Data Files
 
@@ -44,11 +45,13 @@ The data in this directory has been filtered from the original dataset to:
 
 | File | Description | Key Fields |
 |------|-------------|------------|
-| `athlete.csv` | Athlete information (PII removed) | `athlete_id`, `gender`, `grade` |
+| `athlete.csv` | Athlete information (PII removed) | `athlete_id`, `gender` |
 | `athlete_team_association.csv` | Athlete-team relationships | `athlete_id`, `team_id` |
 | `course_details.csv` | Course, weather, and venue metadata | `meet_id`, `running_event_id`, `elevation_gain`, `altitude`, `weather_conditions`, `temperature`, `dew_point` |
 | `joined.csv` | Comprehensive view combining all data | All relevant fields from other tables |
 | `meet.csv` | Meet information | `meet_id`, `meet_name`, `start_date`, `meet_city`, `meet_state`, `altitude` |
+| `meet_series.csv` | Recurring meet series definitions | `series_id`, `display_name`, `sport_id` |
+| `meet_series_member.csv` | Meet-to-series membership | `meet_id`, `series_id` |
 | `result.csv` | Individual race results | `athlete_id`, `meet_id`, `running_event_id`, `result_time` |
 | `running_event.csv` | Event definitions | `running_event_id`, `event_name` |
 | `sport.csv` | Sport information | `sport_id`, `sport_name` |
@@ -58,23 +61,28 @@ The data in this directory has been filtered from the original dataset to:
 
 #### Removed Fields
 - **Personal Information**: `first_name`, `last_name`, `user_id`
-- **Links and Media**: `external_result_link`, `photo_link`, `team_logo`, `team_photo`, `website`, `instagram`
+- **Links and Media**: `external_result_link`, `photo_link`, `team_logo`, `team_photo`, `website`, `instagram`, contact/practice fields
 - **Track-Specific**: `track_distance`, `banked_track`
 - **Relay Teammate Names** (from `joined.csv` only): `athlete2_first_name`, `athlete2_last_name`, `athlete3_first_name`, `athlete3_last_name`, `athlete4_first_name`, `athlete4_last_name`, `athlete2_gender`, `athlete3_gender`, `athlete4_gender`
-- **Approval Status**: `approved` fields removed from `course_details.csv` and `joined.csv` (retained on `meet.csv` and `result.csv`)
+- **Platform-only**: `is_hidden`, pending-edit IDs, editor audit fields, `meet_series.created_at`
+- **Approval Status**: `approved` (used only as an inclusion filter; all rows in this export are approved)
 - **Current Grade**: `current_grade` from athlete-team associations
 
-**Note**: `athlete_id`, `team_id`, `meet_id`, and `running_event_id` are preserved to maintain data relationships across tables.
+**Note**: `athlete_id`, `team_id`, `meet_id`, `series_id`, and `running_event_id` are preserved to maintain data relationships across tables.
 
 #### Scope
-- **Approved only**: Meets and results must have `approved = True`
+- **Approved only**: Meets and results must have `approved = True` in the source
 - **All sports**: Cross Country, Indoor Track, Outdoor Track, and Road Race
 - **Complete coverage**: Full results and metadata from August 2023 onward
-- **Historical coverage**: Partial results back to 2004
+- **Historical coverage**: Partial results back to 2003
 
 ## Data Relationships
 
 ```
+meet_series.csv (series_id)
+    ↓
+meet_series_member.csv (series_id, meet_id)
+    ↓
 meet.csv (meet_id)
     ↓
 result.csv (meet_id, athlete_id, running_event_id)
@@ -92,10 +100,11 @@ running_event.csv (running_event_id)
 
 - All personal identifying information has been removed under IRB approval from the University of Notre Dame
 - Only approved meets and results are included
-- Complete results with metadata from August 2023; historical results back to 2004 (both eras included)
+- Complete results with metadata from August 2023; historical results back to 2003 (both eras included)
 - **`meet.altitude`** and **`course_details.altitude`** — venue altitude in meters
 - Weather, course elevation gain/loss, and distance information included where available
 - Related tables are trimmed to records referenced by the filtered results
+- Meet series memberships are limited to approved meets present in this export
 
 ## File Sizes and Records
 
@@ -121,4 +130,4 @@ For questions about this dataset or to report issues, please contact the authors
 **Usage Terms:**
 - This dataset is anonymized and suitable for public research
 - Please cite appropriately if used in publications
-- Report any data quality issues to the maintainers 
+- Report any data quality issues to the maintainers

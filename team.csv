@@ -1,188 +1,191 @@
-team_id,team_name,region,city,state
-5,California State University Channel Islands,Pacific,Camarillo,California
-7,California State University Sacramento,Pacific,Sacramento,California
-14,University of California Santa Barbara,Pacific,Santa Barbara,California
-18,"University of California, Santa Cruz",Pacific,Santa Cruz,California
-20,University of Southern California,Pacific,Los Angeles,California
-21,University of Washington,Pacific,Seattle,Washington
-22,"Western University of Health Sciences, Pomona",Pacific,Pomona,California
-24,Colorado Mesa University,Heartland,Grand Junction,Colorado
-25,"Colorado Mountain College, Leadville",Heartland,Leadville,Colorado
-26,Creighton University,Heartland,Omaha,Nebraska
-30,Tarleton State University,Heartland,Stephenvill,Texas
-32,University of Arkansas,Heartland,Fayetteville,Arkansas
-33,University of Colorado at Boulder,Heartland,Boulder,Colorado
-35,University of Denver,Heartland,Denver,Colorado
-36,University of Kansas,Heartland,Lawrence,Kansas
-37,University of Nebraska - Lincoln,Heartland,Lincoln,Nebraska
-40,University of Texas - Austin,Heartland,Austin,Texas
-41,Bradley University,Great Plains,Peoria,Illinois
-45,Loyola University Chicago,Great Plains,Chicago,Illinois
-46,Marquette University,Great Plains,Milwaukee,Wisconsin
-50,Saint Louis University,Great Plains,St. Louis,Missouri
-51,Southeast Missouri State University,Great Plains,Cape Girardeau,Missouri
-53,St. Cloud State University,Great Plains,St. Cloud,Minnesota
-57,University of Illinois at Chicago,Great Plains,Chicago,Illinois
-62,Washington University,Great Plains,St. Louis,Missouri
-67,Davidson College,Southeast,Davidson,North Carolina
-68,Duke University,Southeast,Durham,North Carolina
-69,East Carolina University,Southeast,Greenville,North Carolina
-70,Florida State University Panama City,Southeast,Panama City,Florida
-71,Florida Tech,Southeast,Melbourne,Florida
-72,Furman University,Southeast,Greenville,South Carolina
-73,Georgia Knights Athletics,Southeast,Snellville,Georgia
-74,Georgia Southern University,Southeast,Statesboro,Georgia
-77,Kennesaw State University,Southeast,Kennesaw,Georgia
-75,Georgia Tech,Southeast,Atlanta,Georgia
-66,Clemson University,Southeast,Clemson,South Carolina
-19,University of Oregon,Pacific,,Oregon
-17,"University of California, Los Angeles",Pacific,Los Angeles,California
-11,Stanford University,Pacific,Stanford,California
-10,Oregon State University,Pacific,Corvallis,Oregon
-56,University of Illinois,Great Plains,Urbana,Illinois
-58,University of Iowa,Great Plains,Iowa City,Iowa
-44,Iowa State University,Great Plains,Ames,Iowa
-64,Auburn University,Southeast,Auburn,Alabama
-83,University of Alabama,Southeast,Tuscaloosa,Alabama
-87,University of Miami,Southeast,Coral Gables,Florida
-90,University of North Carolina Charlotte,Southeast,Charlotte,North Carolina
-91,"University of North Carolina, Asheville",Southeast,Asheville,North Carolina
-94,University of South Carolina,Southeast,Columbia,South Carolina
-98,Vanderbilt University,Southeast,Nashville,Tennessee
-99,Wake Forest University,Southeast,Winston-Salem,North Carolina
-100,Western Carolina University,Southeast,Cullowhee,North Carolina
-101,Ball State University,Great Lakes,Muncie,Indiana
-102,Bowling Green State University,Great Lakes,Bowling Green,Ohio
-103,Butler University,Great Lakes,Indianapolis,Indiana
-104,Central Michigan University,Great Lakes,Mount Pleasant,Michigan
-105,Cleveland State University,Great Lakes,Cleveland,Ohio
-108,Indiana University,Great Lakes,Bloomington,Indiana
-109,Indiana University-Purdue University Indianapolis,Great Lakes,Indianapolis,Indiana
-111,Miami University of Ohio,Great Lakes,Oxford,Ohio
-115,Oakland University,Great Lakes,Rochester,Michigan
-118,Saginaw Valley State University,Great Lakes,Saginaw,Michigan
-119,University of Akron,Great Lakes,Akron,Ohio
-120,University of Cincinnati,Great Lakes,Cincinnati,Ohio
-121,University of Dayton,Great Lakes,Dayton,Ohio
-122,University of Kentucky,Great Lakes,Lexington,Kentucky
-123,University of Louisville,Great Lakes,Louisville,Kentucky
-125,University of Toledo,Great Lakes,Toledo,Ohio
-126,Washtenaw Community College,Great Lakes,Ann Arbor,Michigan
-127,Western Michigan University,Great Lakes,Kalamazoo,Michigan
-128,Xavier University,Great Lakes,Cincinnati,Ohio
-129,Youngstown State University,Great Lakes,Youngstown,Ohio
-131,Carnegie Mellon University,Mid-Atlantic,Pittsburgh,Pennsylvania
-133,Drexel University,Mid-Atlantic,Philadelphia,Pennsylvania
-134,Duquesne University,Mid-Atlantic,Pittsburgh,Pennsylvania
-136,George Mason University,Mid-Atlantic,Fairfax,Virginia
-137,George Washington University,Mid-Atlantic,Washington,District of Columbia
-141,Lehigh University,Mid-Atlantic,Bethlehem,Pennsylvania
-143,Longwood University,Mid-Atlantic,Farmville,Virginia
-145,Monmouth University,Mid-Atlantic,West Long Branch,New Jersey
-146,Penn State University,Mid-Atlantic,University Park,Pennsylvania
-147,Princeton University,Mid-Atlantic,Princeton,New Jersey
-149,Robert Morris University,Mid-Atlantic,Moon,Pennsylvania
-150,Rutgers University,Mid-Atlantic,New Brunswick,New Jersey
-151,Saint Joseph's University,Mid-Atlantic,Philadelphia,Pennsylvania
-152,Salisbury University,Mid-Atlantic,Salisbury,Maryland
-153,Slippery Rock University,Mid-Atlantic,Slippery Rock,Pennsylvania
-156,Temple University,Mid-Atlantic,Philadelphia,Pennsylvania
-157,Towson University,Mid-Atlantic,Towson,Maryland
-158,University of Delaware,Mid-Atlantic,Newark,Delaware
-159,University of Maryland,Mid-Atlantic,College Park,Maryland
-160,University of Maryland Baltimore County,Mid-Atlantic,Baltimore,Maryland
-161,University of Pennsylvania,Mid-Atlantic,Philadelphia,Pennsylvania
-162,University of Pittsburgh,Mid-Atlantic,Pittsburgh,Pennsylvania
-96,University of Tennessee,Southeast,Knoxville,Tennessee
-117,Purdue University,Great Lakes,West Lafayette,Indiana
-86,University of Georgia,Southeast,Athens,Georgia
-85,University of Florida,Southeast,Gainesville,Florida
-95,University of Tampa,Southeast,Tampa,Florida
-144,Loyola University Maryland,Mid-Atlantic,Baltimore,Maryland
-132,College of William and Mary,Mid-Atlantic,Williamsburg,Virginia
-139,James Madison University,Mid-Atlantic,Harrisonburg,Virginia
-163,University of Richmond,Mid-Atlantic,Richmond,Virginia
-165,Villanova University,Mid-Atlantic,Villanova,Pennsylvania
-168,Washington and Lee,Mid-Atlantic,Lexington,Virginia
-170,Berkshire Community College,Northeast,Pittsfield,Massachusetts
-171,Binghamton University,Northeast,Binghamton,New York
-172,Boston College,Northeast,Chestnut Hill,Massachusetts
-173,Boston University,Northeast,Boston,Massachusetts
-174,Brown University,Northeast,Providence,Rhode Island
-175,Bryant University,Northeast,Smithfield,Rhode Island
-176,College of the Holy Cross,Northeast,Worcester,Massachusetts
-177,Columbia University,Northeast,New York,New York
-179,Dartmouth College,Northeast,Hanover,New Hampshire
-180,Harvard University,Northeast,Boston,Massachusetts
-182,Hofstra University,Northeast,Hempstead,New York
-184,Ithaca College,Northeast,Ithaca,New York
-186,Massachusetts Institute of Technology,Northeast,Cambridge,Massachusetts
-187,Merrimack College,Northeast,North Andover,Massachusetts
-188,Northeastern University,Northeast,Boston,Massachusetts
-189,Olin College,Northeast,Needham,Massachusetts
-190,Providence College,Northeast,Providence,Rhode Island
-191,Quinnipiac University,Northeast,Hamden,Connecticut
-192,Sacred Heart University,Northeast,Fairfield,Connecticut
-194,Smith College,Northeast,Northampton,Massachusetts
-195,St. John's University,Northeast,Jamaica,New York
-196,Stony Brook University,Northeast,Stony Brook,New York
-197,SUNY Geneseo,Northeast,Geneseo,New York
-198,Syracuse University,Northeast,Syracuse,New York
-199,Tufts University,Northeast,Medford,Massachusetts
-200,United States Military Academy,Northeast,West Point,New York
-201,University of Albany,Northeast,Albany,New York
-202,University of Buffalo,Northeast,Buffalo,New York
-203,University of Connecticut,Northeast,Storrs,Connecticut
-204,University of Massachusetts Amherst,Northeast,Amherst,Massachusetts
-205,"University of Massachusetts, Lowell",Northeast,Lowell,Massachusetts
-206,University of Rhode Island,Northeast,Kingston,Rhode Island
-208,University of Vermont,Northeast,Burlington,Vermont
-209,Yale University,Northeast,New Haven,Connecticut
-210,Wellesley College,Northeast,Wellesley,Massachusetts
-212,Florida State University,Southeast,Tallahasse,Florida
-216,University of California Riverside,Pacific,Riverside,California
-167,Virginia Tech,Mid-Atlantic,Blacksburg,Virginia
-211,University of Southern Florida,Southeast,Tampa,Florida
-218,Eastern Michigan University,Great Lakes,Ypsilanti,Michigan
-220,Worcester Polytechnic Institute,Northeast,Worcester,Massachusetts
-221,University of Wisconsin-Eau Claire,Great Plains,Eau Claire,Wisconsin
-222,Fairfield University,Northeast,Fairfield,Connecticut
-1,University of Notre Dame,Great Lakes,Notre Dame,Indiana
-227,Amherst College,Northeast,Amherst,Massachusetts
-213,Christopher Newport University,Mid-Atlantic,Newport News,Virginia
-215,"University of Nevada, Reno",Pacific,Reno,Nevada
-223,University of North Carolina Greensboro,Southeast,Greensboro,North Carolina
-224,University of Michigan - Dearborn,Great Lakes,Dearborn,Michigan
-225,Indiana Wesleyan University,Great Lakes,Marion,Indiana
-226,University of San Francisco,Pacific,San Francisco,California
-228,Hillsdale College,Great Lakes,Hillsdale,Michigan
-231,Northern Michigan University,Great Lakes,Marquette,Michigan
-130,American University,Mid-Atlantic,Washington,District of Columbia
-230,New York University,Northeast,New York,New York
-229,Elon University,Southeast,Elon,North Carolina
-232,SUNY Cortland,Northeast,Cortland,New York
-169,West Virginia University,Mid-Atlantic,Morgantown,West Virginia
-166,Virginia Commonwealth University,Mid-Atlantic,Richmond,Virginia
-4,California Polytechnic State University,Pacific,San Luis Obispo,California
-16,"University of California, Irvine",Pacific,Irvine,California
-15,"University of California, Davis",Pacific,Davis,California
-49,Northwestern University,Great Plains,Evanston,Illinois
-61,University of Wisconsin,Great Plains,Madison,Wisconsin
-116,Ohio State University,Great Lakes,Columbus,Ohio
-79,NC State University,Southeast,Raleigh,North Carolina
-112,Michigan State University,Great Lakes,East Lansing,Michigan
-124,University of Michigan,Great Lakes,Ann Arbor,Michigan
-59,University of Minnesota,Great Plains,Minneapolis,Minnesota
-88,University of North Carolina,Southeast,Chapel Hill,North Carolina
-84,University of Central Florida,Southeast,Orlando,Florida
-60,University of Missouri,Great Plains,Columbia,Missouri
-138,Georgetown University,Mid-Atlantic,Washington,District of Columbia
-142,Liberty University,Mid-Atlantic,Lyncburg,Virginia
-164,University of Virginia,Mid-Atlantic,Charlottesville,Virginia
-76,High Point University,Southeast,High Point,North Carolina
-63,Appalachian State University,Great Plains,Boone,North Carolina
-107,Grand Valley State University,Great Lakes,Allendale,Michigan
-178,Cornell University,Northeast,Ithaca,New York
-217,Old Dominion University,Mid-Atlantic,Norfolk,Virginia
-233,Grand Canyon University,Pacific,Phoenix,Arizona
-43,Illinois State University,Great Plains,Normal,Illinois
+team_id,team_name,region,city,state,split_by_sport
+3,Boise State University,Pacific,Boise,Idaho,False
+5,California State University Channel Islands,Pacific,Camarillo,California,False
+7,California State University Sacramento,Pacific,Sacramento,California,False
+14,University of California Santa Barbara,Pacific,Santa Barbara,California,False
+18,"University of California, Santa Cruz",Pacific,Santa Cruz,California,False
+20,University of Southern California,Pacific,Los Angeles,California,False
+21,University of Washington,Pacific,Seattle,Washington,False
+22,"Western University of Health Sciences, Pomona",Pacific,Pomona,California,False
+24,Colorado Mesa University,Heartland,Grand Junction,Colorado,False
+25,"Colorado Mountain College, Leadville",Heartland,Leadville,Colorado,False
+26,Creighton University,Heartland,Omaha,Nebraska,False
+30,Tarleton State University,Heartland,Stephenvill,Texas,False
+32,University of Arkansas,Heartland,Fayetteville,Arkansas,False
+33,University of Colorado at Boulder,Heartland,Boulder,Colorado,False
+35,University of Denver,Heartland,Denver,Colorado,False
+36,University of Kansas,Heartland,Lawrence,Kansas,False
+37,University of Nebraska - Lincoln,Heartland,Lincoln,Nebraska,False
+40,University of Texas - Austin,Heartland,Austin,Texas,False
+41,Bradley University,Great Plains,Peoria,Illinois,False
+45,Loyola University Chicago,Great Plains,Chicago,Illinois,False
+46,Marquette University,Great Plains,Milwaukee,Wisconsin,False
+50,Saint Louis University,Great Plains,St. Louis,Missouri,False
+51,Southeast Missouri State University,Great Plains,Cape Girardeau,Missouri,False
+53,St. Cloud State University,Great Plains,St. Cloud,Minnesota,False
+57,University of Illinois at Chicago,Great Plains,Chicago,Illinois,False
+62,Washington University,Great Plains,St. Louis,Missouri,False
+67,Davidson College,Southeast,Davidson,North Carolina,False
+68,Duke University,Southeast,Durham,North Carolina,False
+69,East Carolina University,Southeast,Greenville,North Carolina,False
+70,Florida State University Panama City,Southeast,Panama City,Florida,False
+71,Florida Tech,Southeast,Melbourne,Florida,False
+72,Furman University,Southeast,Greenville,South Carolina,False
+73,Georgia Knights Athletics,Southeast,Snellville,Georgia,False
+74,Georgia Southern University,Southeast,Statesboro,Georgia,False
+77,Kennesaw State University,Southeast,Kennesaw,Georgia,False
+75,Georgia Tech,Southeast,Atlanta,Georgia,False
+83,University of Alabama,Southeast,Tuscaloosa,Alabama,False
+87,University of Miami,Southeast,Coral Gables,Florida,False
+90,University of North Carolina Charlotte,Southeast,Charlotte,North Carolina,False
+91,"University of North Carolina, Asheville",Southeast,Asheville,North Carolina,False
+94,University of South Carolina,Southeast,Columbia,South Carolina,False
+98,Vanderbilt University,Southeast,Nashville,Tennessee,False
+99,Wake Forest University,Southeast,Winston-Salem,North Carolina,False
+100,Western Carolina University,Southeast,Cullowhee,North Carolina,False
+101,Ball State University,Great Lakes,Muncie,Indiana,False
+102,Bowling Green State University,Great Lakes,Bowling Green,Ohio,False
+103,Butler University,Great Lakes,Indianapolis,Indiana,False
+105,Cleveland State University,Great Lakes,Cleveland,Ohio,False
+108,Indiana University,Great Lakes,Bloomington,Indiana,False
+109,Indiana University-Purdue University Indianapolis,Great Lakes,Indianapolis,Indiana,False
+111,Miami University of Ohio,Great Lakes,Oxford,Ohio,False
+115,Oakland University,Great Lakes,Rochester,Michigan,False
+118,Saginaw Valley State University,Great Lakes,Saginaw,Michigan,False
+119,University of Akron,Great Lakes,Akron,Ohio,False
+120,University of Cincinnati,Great Lakes,Cincinnati,Ohio,False
+121,University of Dayton,Great Lakes,Dayton,Ohio,False
+122,University of Kentucky,Great Lakes,Lexington,Kentucky,False
+123,University of Louisville,Great Lakes,Louisville,Kentucky,False
+125,University of Toledo,Great Lakes,Toledo,Ohio,False
+126,Washtenaw Community College,Great Lakes,Ann Arbor,Michigan,False
+127,Western Michigan University,Great Lakes,Kalamazoo,Michigan,False
+128,Xavier University,Great Lakes,Cincinnati,Ohio,False
+129,Youngstown State University,Great Lakes,Youngstown,Ohio,False
+131,Carnegie Mellon University,Mid-Atlantic,Pittsburgh,Pennsylvania,False
+133,Drexel University,Mid-Atlantic,Philadelphia,Pennsylvania,False
+134,Duquesne University,Mid-Atlantic,Pittsburgh,Pennsylvania,False
+136,George Mason University,Mid-Atlantic,Fairfax,Virginia,False
+137,George Washington University,Mid-Atlantic,Washington,District of Columbia,False
+141,Lehigh University,Mid-Atlantic,Bethlehem,Pennsylvania,False
+143,Longwood University,Mid-Atlantic,Farmville,Virginia,False
+145,Monmouth University,Mid-Atlantic,West Long Branch,New Jersey,False
+146,Penn State University,Mid-Atlantic,University Park,Pennsylvania,False
+147,Princeton University,Mid-Atlantic,Princeton,New Jersey,False
+149,Robert Morris University,Mid-Atlantic,Moon,Pennsylvania,False
+150,Rutgers University,Mid-Atlantic,New Brunswick,New Jersey,False
+151,Saint Joseph's University,Mid-Atlantic,Philadelphia,Pennsylvania,False
+152,Salisbury University,Mid-Atlantic,Salisbury,Maryland,False
+153,Slippery Rock University,Mid-Atlantic,Slippery Rock,Pennsylvania,False
+156,Temple University,Mid-Atlantic,Philadelphia,Pennsylvania,False
+157,Towson University,Mid-Atlantic,Towson,Maryland,False
+158,University of Delaware,Mid-Atlantic,Newark,Delaware,False
+159,University of Maryland,Mid-Atlantic,College Park,Maryland,False
+160,University of Maryland Baltimore County,Mid-Atlantic,Baltimore,Maryland,False
+161,University of Pennsylvania,Mid-Atlantic,Philadelphia,Pennsylvania,False
+162,University of Pittsburgh,Mid-Atlantic,Pittsburgh,Pennsylvania,False
+96,University of Tennessee,Southeast,Knoxville,Tennessee,False
+163,University of Richmond,Mid-Atlantic,Richmond,Virginia,False
+165,Villanova University,Mid-Atlantic,Villanova,Pennsylvania,False
+168,Washington and Lee,Mid-Atlantic,Lexington,Virginia,False
+170,Berkshire Community College,Northeast,Pittsfield,Massachusetts,False
+171,Binghamton University,Northeast,Binghamton,New York,False
+172,Boston College,Northeast,Chestnut Hill,Massachusetts,False
+173,Boston University,Northeast,Boston,Massachusetts,False
+174,Brown University,Northeast,Providence,Rhode Island,False
+175,Bryant University,Northeast,Smithfield,Rhode Island,False
+176,College of the Holy Cross,Northeast,Worcester,Massachusetts,False
+177,Columbia University,Northeast,New York,New York,False
+179,Dartmouth College,Northeast,Hanover,New Hampshire,False
+180,Harvard University,Northeast,Boston,Massachusetts,False
+182,Hofstra University,Northeast,Hempstead,New York,False
+184,Ithaca College,Northeast,Ithaca,New York,False
+186,Massachusetts Institute of Technology,Northeast,Cambridge,Massachusetts,False
+187,Merrimack College,Northeast,North Andover,Massachusetts,False
+188,Northeastern University,Northeast,Boston,Massachusetts,False
+189,Olin College,Northeast,Needham,Massachusetts,False
+190,Providence College,Northeast,Providence,Rhode Island,False
+191,Quinnipiac University,Northeast,Hamden,Connecticut,False
+192,Sacred Heart University,Northeast,Fairfield,Connecticut,False
+194,Smith College,Northeast,Northampton,Massachusetts,False
+195,St. John's University,Northeast,Jamaica,New York,False
+196,Stony Brook University,Northeast,Stony Brook,New York,False
+197,SUNY Geneseo,Northeast,Geneseo,New York,False
+198,Syracuse University,Northeast,Syracuse,New York,False
+199,Tufts University,Northeast,Medford,Massachusetts,False
+200,United States Military Academy,Northeast,West Point,New York,False
+201,University of Albany,Northeast,Albany,New York,False
+202,University of Buffalo,Northeast,Buffalo,New York,False
+203,University of Connecticut,Northeast,Storrs,Connecticut,False
+204,University of Massachusetts Amherst,Northeast,Amherst,Massachusetts,False
+205,"University of Massachusetts, Lowell",Northeast,Lowell,Massachusetts,False
+206,University of Rhode Island,Northeast,Kingston,Rhode Island,False
+208,University of Vermont,Northeast,Burlington,Vermont,False
+209,Yale University,Northeast,New Haven,Connecticut,False
+210,Wellesley College,Northeast,Wellesley,Massachusetts,False
+212,Florida State University,Southeast,Tallahasse,Florida,False
+216,University of California Riverside,Pacific,Riverside,California,False
+218,Eastern Michigan University,Great Lakes,Ypsilanti,Michigan,False
+220,Worcester Polytechnic Institute,Northeast,Worcester,Massachusetts,False
+221,University of Wisconsin-Eau Claire,Great Plains,Eau Claire,Wisconsin,False
+222,Fairfield University,Northeast,Fairfield,Connecticut,False
+227,Amherst College,Northeast,Amherst,Massachusetts,False
+213,Christopher Newport University,Mid-Atlantic,Newport News,Virginia,False
+215,"University of Nevada, Reno",Pacific,Reno,Nevada,False
+223,University of North Carolina Greensboro,Southeast,Greensboro,North Carolina,False
+224,University of Michigan - Dearborn,Great Lakes,Dearborn,Michigan,False
+225,Indiana Wesleyan University,Great Lakes,Marion,Indiana,False
+226,University of San Francisco,Pacific,San Francisco,California,False
+228,Hillsdale College,Great Lakes,Hillsdale,Michigan,False
+231,Northern Michigan University,Great Lakes,Marquette,Michigan,False
+11,Stanford University,Pacific,Stanford,California,False
+10,Oregon State University,Pacific,Corvallis,Oregon,False
+233,Grand Canyon University,Pacific,Phoenix,Arizona,False
+234,Central Connecticut State University,Northeast,New Britain,Connecticut,False
+235,The King's College,Northeast,New York City,New York,False
+66,Clemson University,Southeast,Clemson,South Carolina,False
+17,"University of California, Los Angeles",Pacific,Los Angeles,California,False
+56,University of Illinois,Great Plains,Urbana,Illinois,False
+58,University of Iowa,Great Plains,Iowa City,Iowa,False
+44,Iowa State University,Great Plains,Ames,Iowa,False
+64,Auburn University,Southeast,Auburn,Alabama,False
+117,Purdue University,Great Lakes,West Lafayette,Indiana,False
+86,University of Georgia,Southeast,Athens,Georgia,False
+85,University of Florida,Southeast,Gainesville,Florida,False
+95,University of Tampa,Southeast,Tampa,Florida,False
+144,Loyola University Maryland,Mid-Atlantic,Baltimore,Maryland,False
+132,College of William and Mary,Mid-Atlantic,Williamsburg,Virginia,False
+139,James Madison University,Mid-Atlantic,Harrisonburg,Virginia,False
+104,Central Michigan University,Great Lakes,Mount Pleasant,Michigan,False
+167,Virginia Tech,Mid-Atlantic,Blacksburg,Virginia,False
+211,University of Southern Florida,Southeast,Tampa,Florida,False
+1,University of Notre Dame,Great Lakes,Notre Dame,Indiana,False
+130,American University,Mid-Atlantic,Washington,District of Columbia,False
+230,New York University,Northeast,New York,New York,False
+229,Elon University,Southeast,Elon,North Carolina,False
+232,SUNY Cortland,Northeast,Cortland,New York,False
+169,West Virginia University,Mid-Atlantic,Morgantown,West Virginia,False
+166,Virginia Commonwealth University,Mid-Atlantic,Richmond,Virginia,False
+4,California Polytechnic State University,Pacific,San Luis Obispo,California,False
+16,"University of California, Irvine",Pacific,Irvine,California,False
+15,"University of California, Davis",Pacific,Davis,California,False
+49,Northwestern University,Great Plains,Evanston,Illinois,False
+61,University of Wisconsin,Great Plains,Madison,Wisconsin,False
+116,Ohio State University,Great Lakes,Columbus,Ohio,False
+79,NC State University,Southeast,Raleigh,North Carolina,False
+112,Michigan State University,Great Lakes,East Lansing,Michigan,False
+124,University of Michigan,Great Lakes,Ann Arbor,Michigan,False
+59,University of Minnesota,Great Plains,Minneapolis,Minnesota,False
+84,University of Central Florida,Southeast,Orlando,Florida,False
+60,University of Missouri,Great Plains,Columbia,Missouri,False
+138,Georgetown University,Mid-Atlantic,Washington,District of Columbia,False
+164,University of Virginia,Mid-Atlantic,Charlottesville,Virginia,False
+76,High Point University,Southeast,High Point,North Carolina,False
+63,Appalachian State University,Great Plains,Boone,North Carolina,False
+107,Grand Valley State University,Great Lakes,Allendale,Michigan,False
+178,Cornell University,Northeast,Ithaca,New York,False
+217,Old Dominion University,Mid-Atlantic,Norfolk,Virginia,False
+43,Illinois State University,Great Plains,Normal,Illinois,False
+19,University of Oregon,Pacific,Eugene,Oregon,False
+88,University of North Carolina,Southeast,Chapel Hill,North Carolina,False
+142,Liberty University,Mid-Atlantic,Lynchburg,Virginia,False

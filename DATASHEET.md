@@ -6,16 +6,16 @@ This document follows the framework proposed in [Datasheets for Datasets](https:
 
 | | |
 |---|---|
-| **Version** | v2.0.0 |
-| **Last updated** | June 5, 2026 |
-| **Data coverage** | 2004 – May 2026 |
+| **Version** | v2.1.0 |
+| **Last updated** | August 24, 2026 |
+| **Data coverage** | 2003 – July 2026 |
 | **Zenodo** | [zenodo.org/records/17917357](https://zenodo.org/records/17917357) |
 | **License** | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
-| **Format** | UTF-8 CSV (9 relational tables + 1 denormalized export) |
+| **Format** | UTF-8 CSV (11 relational tables + 1 denormalized export) |
 | **Update cadence** | Yearly public exports as new meets are approved |
-| **Related paper** | Karr et al., *NRCD: An Open Database of Collegiate Running with Unified Performance Standardization* — under review; arXiv preprint forthcoming |
+| **Related paper** | Karr et al., *NRCD: An Open Database of Collegiate Running with Unified Performance Standardization* — [arXiv:2608.14776](https://arxiv.org/abs/2608.14776) |
 
-**Scope of this release:** All approved results from **2004 through May 2026** across Cross Country, Indoor Track, Outdoor Track, and Road Race. The export includes both **comprehensive** data (meet date ≥ August 2023, richer metadata) and **historical** data (2004–July 2023, sparser metadata). Prior Zenodo releases (v1.0.0, v1.1.0) contained cross country only.
+**Scope of this release:** All approved results from **2003 through July 2026** across Cross Country, Indoor Track, Outdoor Track, and Road Race. The export includes both **comprehensive** data (meet date ≥ August 2023, richer metadata) and **historical** data (through July 2023, sparser metadata), plus meet series memberships. Prior Zenodo releases (v1.0.0, v1.1.0) contained cross country only.
 
 ---
 
@@ -46,7 +46,7 @@ Community-contributed and maintained by NRCD volunteers and domain experts. No e
 
 ### Any other comments?
 
-This release is **v2.0.0** on the [official NRCD Zenodo record](https://zenodo.org/records/17917357). It expands prior cross-country-only releases (v1.0.0, v1.1.0) to all approved sports and seasons, spanning both comprehensive and historical eras (2004–May 2026). PII removal and public release were reviewed under University of Notre Dame IRB protocols (see Ethical Review).
+This release is **v2.1.0** on the [official NRCD Zenodo record](https://zenodo.org/records/17917357). It expands prior cross-country-only releases (v1.0.0, v1.1.0) to all approved sports and seasons, spanning both comprehensive and historical eras (2003–July 2026). v2.1.0 adds meet series tables and drops platform-only columns (`approved`, `is_hidden`) from the public export. PII removal and public release were reviewed under University of Notre Dame IRB protocols (see Ethical Review).
 
 ---
 
@@ -58,6 +58,8 @@ This release is **v2.0.0** on the [official NRCD Zenodo record](https://zenodo.o
 |------|---------------|
 | `result.csv` | An individual race result (or relay leg) at a meet |
 | `meet.csv` | A meet or multi-day competition |
+| `meet_series.csv` | A named recurring meet series across editions |
+| `meet_series_member.csv` | Membership of a meet in a series |
 | `athlete.csv` | A unique athlete (anonymized) |
 | `team.csv` | A collegiate running club or team |
 | `athlete_team_association.csv` | An athlete's affiliation with a team |
@@ -68,36 +70,38 @@ This release is **v2.0.0** on the [official NRCD Zenodo record](https://zenodo.o
 
 ### How many instances are there in total?
 
-**Table counts (v2.0.0):**
+**Table counts (v2.1.0):**
 
 | File | Records |
 |------|---------|
-| `result.csv` | 128,963 |
-| `meet.csv` | 1,336 |
-| `athlete.csv` | 29,609 |
-| `team.csv` | 187 |
-| `athlete_team_association.csv` | 29,618 |
-| `course_details.csv` | 939 |
-| `running_event.csv` | 54 |
+| `result.csv` | 143,868 |
+| `meet.csv` | 1,423 |
+| `meet_series.csv` | 260 |
+| `meet_series_member.csv` | 878 |
+| `athlete.csv` | 31,786 |
+| `team.csv` | 190 |
+| `athlete_team_association.csv` | 31,796 |
+| `course_details.csv` | 1,183 |
+| `running_event.csv` | 56 |
 | `sport.csv` | 4 |
-| `joined.csv` | 155,109 |
+| `joined.csv` | 180,767 |
 
 **Results by sport:**
 
-| Sport | Results | Meets (approx.) |
-|-------|---------|-----------------|
-| Cross Country | 70,285 | — |
-| Indoor Track | 22,809 | — |
-| Outdoor Track | 33,689 | — |
-| Road Race | 2,180 | — |
-| **Total** | **128,963** | **1,336** |
+| Sport | Results | Meets |
+|-------|---------|-------|
+| Cross Country | 75,489 | 546 |
+| Indoor Track | 29,595 | 348 |
+| Outdoor Track | 36,598 | 469 |
+| Road Race | 2,186 | 60 |
+| **Total** | **143,868** | **1,423** |
 
 **Results by gender:**
 
 | Gender | Results | Share |
 |--------|---------|-------|
-| Women (F) | 46,757 | 36.3% |
-| Men (M) | 82,206 | 63.7% |
+| Women (F) | 52,031 | 36.2% |
+| Men (M) | 91,837 | 63.8% |
 
 **Coverage era (comprehensive and historical):**
 
@@ -105,8 +109,8 @@ Following the accompanying paper, results are split by meet date:
 
 | Era | Date range | Description |
 |-----|------------|-------------|
-| **Historical** | 2004 – July 2023 | Approved results with partial metadata; sparser course, weather, and altitude fields |
-| **Comprehensive** | August 2023 – May 2026 | Approved results with full metadata where available (course distance, elevation gain/loss, venue altitude, weather via OpenWeatherMap) |
+| **Historical** | through July 2023 | Approved results with partial metadata; sparser course, weather, and altitude fields |
+| **Comprehensive** | August 2023 – July 2026 | Approved results with full metadata where available (course distance, elevation gain/loss, venue altitude, weather via OpenWeatherMap) |
 
 Both eras are included in this release. Researchers should account for metadata availability when analyzing pre-2023 data.
 
@@ -114,16 +118,16 @@ Both eras are included in this release. Researchers should account for metadata 
 
 | Sport | Era | Results | Weather coverage* |
 |-------|-----|---------|-------------------|
-| Cross Country | Historical | 46,930 | 4.4% |
-| Cross Country | Comprehensive | 23,355 | 97.7% |
-| Indoor Track | Historical | 4,171 | 0.0% |
-| Indoor Track | Comprehensive | 18,638 | 0.0% |
-| Outdoor Track | Historical | 12,321 | 0.0% |
-| Outdoor Track | Comprehensive | 21,368 | 36.9% |
-| Road Race | Historical | 1,332 | 34.5% |
-| Road Race | Comprehensive | 848 | 67.0% |
-| **Total** | **Historical** | **64,754** | — |
-| **Total** | **Comprehensive** | **64,209** | — |
+| Cross Country | Historical | 52,129 | 27.2% |
+| Cross Country | Comprehensive | 23,360 | 99.9% |
+| Indoor Track | Historical | 11,386 | 0.0% |
+| Indoor Track | Comprehensive | 18,209 | 0.0% |
+| Outdoor Track | Historical | 13,399 | 0.0% |
+| Outdoor Track | Comprehensive | 23,199 | 35.0% |
+| Road Race | Historical | 1,332 | 93.4% |
+| Road Race | Comprehensive | 854 | 100.0% |
+| **Total** | **Historical** | **78,246** | — |
+| **Total** | **Comprehensive** | **65,622** | — |
 
 \*Share of results in that sport/era with a non-null `weather_conditions` field in `course_details.csv`.
 
@@ -133,7 +137,7 @@ No — this is not a random sample. It includes **all approved** meets and resul
 
 ### What data does each instance consist of?
 
-Rows in UTF-8 CSV files. Key fields per table are listed in [`README.md`](README.md). Removed fields include names, user IDs, social links, media URLs, and relay teammate names (in `joined.csv`).
+Rows in UTF-8 CSV files. Key fields per table are listed in [`README.md`](README.md). Removed fields include names, user IDs, social links, media URLs, relay teammate names (in `joined.csv`), `is_hidden`, and `approved` (approval is applied as an inclusion filter only).
 
 ### Is there a label or target associated with each instance?
 
@@ -141,7 +145,7 @@ No single label. Common derived targets: `result_time`, placement (computed), te
 
 ### Are relationships between individual instances made explicit?
 
-Yes. Foreign keys link tables: `athlete_id`, `team_id`, `meet_id`, `running_event_id`, `sport_id`. See the relationship diagram in [`README.md`](README.md).
+Yes. Foreign keys link tables: `athlete_id`, `team_id`, `meet_id`, `series_id`, `running_event_id`, `sport_id`. See the relationship diagram in [`README.md`](README.md).
 
 ### Are there recommended data splits?
 
@@ -153,7 +157,7 @@ No official splits. For longitudinal work, define splits by school year (August 
 |-------|--------|
 | Historical sparsity | Pre-August 2023 rows often lack course/weather metadata |
 | Entry errors | Results entered by contributors and reviewed by admins; transcription errors possible |
-| Multi-team athletes | 9 athletes appear on multiple teams |
+| Multi-team athletes | 10 athletes appear on multiple teams |
 | Multi-sport athletes | Athletes may compete in more than one sport |
 | Redundancy | `joined.csv` duplicates normalized tables for convenience |
 | Weather gaps | Coverage varies; not all meets have `course_details` records |
@@ -196,7 +200,7 @@ NRCD maintainers, NIRCA community members, club coaches, athletes, and volunteer
 
 ### Over what timeframe was the data collected?
 
-Approved results from **2004 through May 2026**. The export contains both historical and comprehensive eras (see Coverage era above); it is not limited to post-2023 data.
+Approved results from **2003 through July 2026**. The export contains both historical and comprehensive eras (see Coverage era above); it is not limited to post-2023 data.
 
 ### Were any ethical review processes conducted?
 
@@ -210,9 +214,9 @@ Yes. The removal of personally identifiable information and public release of th
 
 | Step | Description |
 |------|-------------|
-| Approval filter | Only `approved = True` meets and results retained |
+| Approval filter | Only `approved = True` meets and results retained; `approved` column dropped from the export |
 | PII removal | Names, user IDs, hometowns, Strava links dropped |
-| Field pruning | Media links, track-specific fields, relay teammate names removed |
+| Field pruning | Media links, track-specific fields, relay teammate names, `is_hidden`, and platform-only edit fields removed |
 | Referential trim | Lookup tables limited to entities referenced by filtered results |
 
 ### Was the "raw" data saved?
@@ -229,9 +233,9 @@ Processing is documented in [`README.md`](README.md). Standardization code for t
 
 ### Has the dataset been used for any tasks already?
 
-This release supports the following manuscript (under review; arXiv preprint forthcoming):
+This release supports the following manuscript:
 
-> Jonathan A. Karr Jr, Ryan M. Fryer, Ben Darden, Nicholas Pell, Kayla Ambrose, Evan Hall, Ramzi K. Bualuan, and Nitesh V. Chawla. 2026. **NRCD: An Open Database of Collegiate Running with Unified Performance Standardization.** *Under review.*
+> Jonathan A. Karr Jr, Ryan M. Fryer, Ben Darden, Nicholas Pell, Kayla Ambrose, Evan Hall, Ramzi K. Bualuan, and Nitesh V. Chawla. 2026. **NRCD: An Open Database of Collegiate Running with Unified Performance Standardization.** *arXiv preprint* [arXiv:2608.14776](https://arxiv.org/abs/2608.14776).
 
 The paper describes community-governed curation, dataset composition, and a unified performance standardization framework (distance, elevation, heat, and venue adjustments).
 
@@ -276,7 +280,7 @@ Via [Zenodo](https://zenodo.org/records/17917357) and the [NRCD website](https:/
 
 ### When will the dataset be distributed?
 
-**v2.0.0** published June 5, 2026 (data through May 2026). New versions released yearly or when significant new data is approved.
+**v2.1.0** published August 24, 2026 (data through July 2026). New versions released yearly or when significant new data is approved.
 
 ### License
 
@@ -313,11 +317,11 @@ Yes. Submit meet results and corrections through the NRCD platform.
 
 **Dataset (this release):**
 
-> Karr, J., Darden, B., & Pell, N. (2026). *National Running Club Database — Public Anonymized Dataset* (Version 2.0.0) [Data set]. Zenodo. https://zenodo.org/records/17917357
+> Karr, J., Darden, B., & Pell, N. (2026). *National Running Club Database — Public Anonymized Dataset* (Version 2.1.0) [Data set]. Zenodo. https://zenodo.org/records/17917357
 
-**Paper (under review):**
+**Paper:**
 
-> Karr, J. A., Jr, Fryer, R. M., Darden, B., Pell, N., Ambrose, K., Hall, E., Bualuan, R. K., & Chawla, N. V. (2026). NRCD: An Open Database of Collegiate Running with Unified Performance Standardization. *Under review.*
+> Karr, J. A., Jr, Fryer, R. M., Darden, B., Pell, N., Ambrose, K., Hall, E., Bualuan, R. K., & Chawla, N. V. (2026). NRCD: An Open Database of Collegiate Running with Unified Performance Standardization. *arXiv preprint* [arXiv:2608.14776](https://arxiv.org/abs/2608.14776).
 
 Replace with the assigned DOI after Zenodo upload if a new version-specific DOI is issued.
 
@@ -330,3 +334,4 @@ Replace with the assigned DOI after Zenodo upload if a new version-specific DOI 
 | v1.0.0 | 2025-07-31 | [10.5281/zenodo.16652626](https://doi.org/10.5281/zenodo.16652626) | Initial release; NIRCA cross country 2023–2024 |
 | v1.1.0 | 2025-12-12 | [10.5281/zenodo.17917357](https://doi.org/10.5281/zenodo.17917357) | Added 2025 cross country season (2023–2025 XC) |
 | v2.0.0 | 2026-06-06 | [zenodo.org/records/17917357](https://zenodo.org/records/17917357) | Full approved export (2004–May 2026): all sports, comprehensive + historical eras; 128,963 results, 29,609 athletes, 1,336 meets; accompanies paper (under review) |
+| v2.1.0 | 2026-08-24 | [zenodo.org/records/17917357](https://zenodo.org/records/17917357) | Refreshed export (2003–July 2026): 143,868 results, 31,786 athletes, 1,423 meets, 260 meet series / 878 memberships; adds `meet_series` tables; drops `approved` and `is_hidden` from export columns |
