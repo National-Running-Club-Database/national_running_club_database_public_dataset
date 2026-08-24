@@ -4,7 +4,7 @@ This dataset contains the National Running Club Database with personal identifia
 
 **Version:** v2.1.0 — [Zenodo](https://zenodo.org/records/17917357) (prior releases: v1.0.0, v1.1.0 cross country only; v2.0.0 all sports through May 2026)  
 **Data coverage:** 2003 – July 2026  
-**Related paper:** Karr et al., *NRCD: An Open Database of Collegiate Running with Unified Performance Standardization* (under review; arXiv preprint forthcoming)  
+**Related paper:** Karr et al., *NRCD: An Open Database of Collegiate Running with Unified Performance Standardization* ([arXiv:2608.14776](https://arxiv.org/abs/2608.14776))  
 **Update cadence:** Public exports are updated yearly
 
 For structured metadata, provenance, and intended-use documentation, see [`DATASHEET.md`](DATASHEET.md) (following the [Datasheets for Datasets](https://doi.org/10.1145/3458723) framework).
